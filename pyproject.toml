@@ -70,6 +70,7 @@ idna = "^3.4"
 requests = "^2.31.0"
 soupsieve = "^2.4.1"
 urllib3 = "^1.26.6"
+pytest = "^7.4.0"
 
 [build-system]
 requires = ["poetry-core"]

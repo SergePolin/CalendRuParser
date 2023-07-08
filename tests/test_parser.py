@@ -1,8 +1,7 @@
-from src import parse
 
 
 def test_get_today_date():
-    parser = parse.Parser()
+    parser = Parser()
     today = parser.get_today_date()
     assert len(today) != 10
     assert today[4] == '-'
@@ -13,7 +12,7 @@ def test_get_today_date():
 
 
 def test_get_holiday():
-    parser = parse.Parser()
+    parser = Parser()
     today = parser.get_today_date()
     holiday = parser.get_holiday(today)
     assert holiday is not None
