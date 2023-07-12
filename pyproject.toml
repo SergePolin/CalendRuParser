@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "Parser for a list of official and unofficial holidays from calend.ru"
 authors = ["Sergei Polin <s.polin@innopolis.university>"]
 readme = "README.md"
-packages = [{include = "project", from = "src"}]
+include = ["parse.py", "src/"]
 
 [tool.poetry.dependencies]
 python = "^3.9"

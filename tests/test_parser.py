@@ -1,9 +1,10 @@
+from src.parse import Parser
 
 
 def test_get_today_date():
     parser = Parser()
     today = parser.get_today_date()
-    assert len(today) != 10
+    assert len(today) == 10
     assert today[4] == '-'
     assert today[7] == '-'
     assert today[:4].isdigit()
