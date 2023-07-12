@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "CalendRuParser"
-version = "0.1.0"
+version = "0.2.0"
 description = "Parser for a list of official and unofficial holidays from calend.ru"
 authors = ["Sergei Polin <s.polin@innopolis.university>"]
 readme = "README.md"

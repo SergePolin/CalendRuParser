@@ -30,7 +30,7 @@ jobs:
 
     - name: Run linter
       run: |
-        poetry run pylint --exit-zero your_package_name
+        poetry run pylint --exit-zero src.parse
 
     - name: Build and Publish
       run: |
